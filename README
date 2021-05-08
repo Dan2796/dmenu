@@ -1,24 +1,18 @@
-dmenu - dynamic menu
-====================
-dmenu is an efficient dynamic menu for X.
+# My build of dmenu
 
+This is a repo containing my build of the suckless software dmenu, a useful (and minimalist) menu program which is highly customisable and indispensible in shell scripting. 
 
-Requirements
-------------
-In order to build dmenu you need the Xlib header files.
+## Uses of dmenu
 
+I mainly use dmenu for a series of custom shell scripts I wrote. For example, I have one that allows me to open any pdf stored on my computer with the touch of a few keys. I have another that lets me select my screen layout from a custom list of options. 
 
-Installation
-------------
-Edit config.mk to match your local setup (dmenu is installed into
-the /usr/local namespace by default).
+## Feel free to use!
 
-Afterwards enter the following command to build and install dmenu
-(if necessary as root):
+You can find the original 'vanilla' version of dmenu at https://tools.suckless.org/dmenu/ as well as a set of available patches.
 
-    make clean install
+You can directly clone that repo with the following command:
 
+git clone https://git.suckless.org/dmenu
 
-Running dmenu
--------------
-See the man page for details.
+You are also more than welcome to directly take my own version from here and customise as much as you want. 
+
